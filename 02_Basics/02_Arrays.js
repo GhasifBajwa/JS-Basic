@@ -30,3 +30,7 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1, score2, score3));
+
+// destructuring array
+const [coursename1, price1, courseInstructor1] = ["Javascript", 500, "Ghasif"];
+console.log(coursename1);
